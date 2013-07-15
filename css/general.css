@@ -1,0 +1,252 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	background:#000;
+	margin:0;
+}
+
+.fuente_blanca{
+	color:#fff;
+}
+
+.fondo_rojo{
+	background:#e83434;
+}
+
+.fondo_blanco{
+	background:#fff;
+}
+
+.letra_chica_bold{
+	font-weight:bold;
+}
+
+.centrado{
+	margin:0 auto;
+}
+
+.texto_centrado{
+
+	text-align:center;
+}
+
+.al_Cien,.al_Noventa,.al_Ochenta, .al_Setenta, .al_Sesenta, .al_Cincuenta, .al_Cuarenta, .al_Treinta, .al_Veinte,.al_Diez{
+	width:98%;
+}
+
+.marco_Color{
+	border:1px solid red;
+}
+
+.padding_abajo_grande{
+	padding:2em 0;
+}
+
+.padding_abajo_mediano{
+	padding:1em 0;
+}
+
+.padding_abajo_chico{
+	padding:0.5em 0;
+}
+
+.padding_chico{
+	padding:0.3em;
+}
+
+.margin_arriba_grande{
+	margin:2em 0;
+}
+
+.margin_lado_mediano{
+	margin:0 0.5em;
+}
+
+.misBloques{
+	display:inline-block;
+}
+
+.btn_menu{
+	padding:0.3em 0.5em;
+}
+
+.logo_alto_ancho{
+	height:100px;
+}
+
+.icono_social{
+	height:30px;
+	padding:0.5em;
+}
+
+.foodMenu{
+	width:99%;
+}
+
+.cuadroOpcion{
+	width:45%;
+	padding:0.8em 0.5em 0 0;
+}
+.dosmil_grande{
+	font-weight:bold;
+	font-size:3.2em;
+}
+
+.collins_av{
+	font-size:1.3em;
+}
+
+.miami_beach{
+	font-size:0.9em;
+}
+
+.secciones{
+	width:100%;
+}
+
+.galeria_imagenes{
+	width:48%;
+	margin:0.1em 0 0 0.1em ;
+}
+
+/* Large desktop */
+@media (min-width: 1025px) {
+	.al_Cien{
+		width:98%;
+	}
+
+	.al_Noventa{
+		width:88%;
+	}
+
+	.al_Ochenta{
+		width:78%;
+	}
+
+	.al_Setenta{
+		width:68%;
+	}
+
+	.al_Sesenta{
+		width:58%;
+	}
+
+	.al_Cincuenta{
+		width:48%;
+	}
+
+	.al_Cuarenta{
+		width:38%;
+	}
+
+	.al_Treinta{
+		width:28%;
+	}
+
+	.al_Veinte{
+		width:18%;
+	}
+
+	.al_Diez{
+		width:8%;
+	}
+	.logo_alto_ancho{
+		height:150px;
+	}
+	.icono_social{
+		padding:0.2em;
+	}
+	.btn_menu{
+		padding:0.2em 0.5em;
+	}
+	.foodMenu{
+		width:65%;
+	}
+	.cuadroOpcion{
+		width:31%;
+		padding:0.8em 0.5em;
+	}
+	.secciones{
+		width:50%;
+	}
+	.galeria_imagenes{
+		width:18%;
+		margin:0.3em;
+	}
+}
+     
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.al_Cien{
+		width:98%;
+	}
+
+	.al_Noventa{
+		width:88%;
+	}
+
+	.al_Ochenta{
+		width:78%;
+	}
+
+	.al_Setenta{
+		width:68%;
+	}
+
+	.al_Sesenta{
+		width:58%;
+	}
+
+	.al_Cincuenta{
+		width:48%;
+	}
+
+	.al_Cuarenta{
+		width:38%;
+	}
+
+	.al_Treinta{
+		width:28%;
+	}
+
+	.al_Veinte{
+		width:18%;
+	}
+
+	.al_Diez{
+		width:8%;
+	}
+	.logo_alto_ancho{
+		height:130px;
+	}
+	.icono_social{
+		padding:0.2em;
+	}
+	.btn_menu{
+		padding:0.2em 0.3em;
+		text-align:center;
+	}
+	.foodMenu{
+		width:65%;
+	}
+	.cuadroOpcion{
+		width:30%;
+		padding:0.8em 1em 0 0;
+	}
+	.secciones{
+		width:50%;
+	}
+	.galeria_imagenes{
+		width:18%;
+		margin:0.3em;
+	}
+}
+     
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+     
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
